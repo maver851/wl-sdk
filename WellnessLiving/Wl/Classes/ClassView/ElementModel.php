@@ -43,6 +43,8 @@ class ElementModel extends WlModelAbstract
    *       <dd>The location key of the schedule.</dd>
    *       <dt>string <var>m_price</var></dt>
    *       <dd>The price of a single session of the schedule.</dd>
+   *       <dt>string <var>text_room</var></dt>
+   *       <dd>The room of the class period.</dd>
    *       <dt>string <var>text_time</var></dt>
    *       <dd>The time of the session in the following format: `[start_time] - [end_time]` in the locale's time zone.</dd>
    *     </dl>
