@@ -129,7 +129,9 @@ class EditModel extends WlModelAbstract
    *   <dt>string <var>s_title</var></dt>
    *   <dd>The title of the field.</dd>
    *   <dt>mixed <var>x_value</var></dt>
-   *   <dd>The value of the field. This value is defined by individual fields.</dd>
+   *   <dd>The value of the field. This value is defined by individual fields. For <tt>select</tt> and <tt>radio</tt> fields, x_value will contain
+   *   <tt>a_item</tt>, and <tt>a_sort</tt>. <tt>a_item</tt> has sort index as key, and title of option as value. <tt>a_sort</tt> has option ID as key,
+   *   and sort index as value. </dd>
    * </dl>
    *
    * @get result
