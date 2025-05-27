@@ -345,6 +345,18 @@ class ScheduleListModel extends WlModelAbstract
     *     `true` when need show quiz icon, `false` otherwise.
     *   </dd>
     *   <dt>
+    *     string <var>t_business_start</var>
+    *   </dt>
+    *   <dd>
+    *     The earliest time the business where the session takes place, opens.
+    *   </dd>
+    *   <dt>
+    *     string <var>t_business_end</var>
+    *   </dt>
+    *   <dd>
+    *     The latest time the business where the session takes place, closes.
+    *   </dd>
+    *   <dt>
     *     string <var>text_alert</var>
     *   </dt>
     *   <dd>
